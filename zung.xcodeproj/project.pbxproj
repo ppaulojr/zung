@@ -1,0 +1,455 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8207CF53138D465E004B2722 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8207CF52138D465E004B2722 /* UIKit.framework */; };
+		8207CF55138D465E004B2722 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8207CF54138D465E004B2722 /* Foundation.framework */; };
+		8207CF57138D465E004B2722 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8207CF56138D465E004B2722 /* CoreGraphics.framework */; };
+		8207CF5D138D465E004B2722 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8207CF5B138D465E004B2722 /* InfoPlist.strings */; };
+		8207CF60138D465E004B2722 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8207CF5F138D465E004B2722 /* main.m */; };
+		8207CF63138D465E004B2722 /* zungAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8207CF62138D465E004B2722 /* zungAppDelegate.m */; };
+		8207CF66138D465E004B2722 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8207CF64138D465E004B2722 /* MainWindow.xib */; };
+		8207CF69138D465E004B2722 /* zungViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8207CF68138D465E004B2722 /* zungViewController.m */; };
+		8207CF6C138D465E004B2722 /* zungViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8207CF6A138D465E004B2722 /* zungViewController.xib */; };
+		8207CF73138D469B004B2722 /* zungquest.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8207CF72138D469B004B2722 /* zungquest.plist */; };
+		8207CF77138D53B0004B2722 /* warning.m in Sources */ = {isa = PBXBuildFile; fileRef = 8207CF75138D53B0004B2722 /* warning.m */; };
+		8207CF7C138D5C66004B2722 /* warning.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8207CF7E138D5C66004B2722 /* warning.xib */; };
+		8207CF83138D5E95004B2722 /* zungquest-ptBR.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8207CF82138D5E95004B2722 /* zungquest-ptBR.plist */; };
+		8207CF87138D5F45004B2722 /* ResultadoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8207CF85138D5F44004B2722 /* ResultadoViewController.m */; };
+		8207CF89138D6446004B2722 /* ResultadoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8207CF8B138D6446004B2722 /* ResultadoViewController.xib */; };
+		8207CF90138D8D7D004B2722 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8207CF8E138D8D7D004B2722 /* Localizable.strings */; };
+		8207CF94138D9705004B2722 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 8207CF92138D9705004B2722 /* icon.png */; };
+		8207CF95138D9705004B2722 /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8207CF93138D9705004B2722 /* icon@2x.png */; };
+		8207CF97138D9721004B2722 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 8207CF96138D9721004B2722 /* icon.png */; };
+		8207CF99138D9729004B2722 /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8207CF98138D9729004B2722 /* icon@2x.png */; };
+		8207CFA3138D99AA004B2722 /* libGoogleAdMobAds.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8207CFA1138D99AA004B2722 /* libGoogleAdMobAds.a */; };
+		8207CFA4138D99AA004B2722 /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = 8207CFA2138D99AA004B2722 /* README.txt */; };
+		8207CFA8138D9B67004B2722 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8207CFA5138D9B66004B2722 /* AudioToolbox.framework */; };
+		8207CFA9138D9B67004B2722 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8207CFA6138D9B67004B2722 /* MessageUI.framework */; };
+		8207CFAA138D9B67004B2722 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8207CFA7138D9B67004B2722 /* SystemConfiguration.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8207CF4E138D465D004B2722 /* zung.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = zung.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8207CF52138D465E004B2722 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8207CF54138D465E004B2722 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8207CF56138D465E004B2722 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8207CF5A138D465E004B2722 /* zung-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "zung-Info.plist"; sourceTree = "<group>"; };
+		8207CF5C138D465E004B2722 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8207CF5E138D465E004B2722 /* zung-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "zung-Prefix.pch"; sourceTree = "<group>"; };
+		8207CF5F138D465E004B2722 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8207CF61138D465E004B2722 /* zungAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = zungAppDelegate.h; sourceTree = "<group>"; };
+		8207CF62138D465E004B2722 /* zungAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = zungAppDelegate.m; sourceTree = "<group>"; };
+		8207CF65138D465E004B2722 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		8207CF67138D465E004B2722 /* zungViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = zungViewController.h; sourceTree = "<group>"; };
+		8207CF68138D465E004B2722 /* zungViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = zungViewController.m; sourceTree = "<group>"; };
+		8207CF6B138D465E004B2722 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/zungViewController.xib; sourceTree = "<group>"; };
+		8207CF72138D469B004B2722 /* zungquest.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = zungquest.plist; sourceTree = "<group>"; };
+		8207CF74138D53AF004B2722 /* warning.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = warning.h; sourceTree = "<group>"; };
+		8207CF75138D53B0004B2722 /* warning.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = warning.m; sourceTree = "<group>"; };
+		8207CF79138D5AFF004B2722 /* pt */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pt; path = /Users/ppaulojr/Desktop/zung/zung/pt.lproj/InfoPlist.strings; sourceTree = "<absolute>"; };
+		8207CF7A138D5AFF004B2722 /* pt */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = pt; path = /Users/ppaulojr/Desktop/zung/zung/pt.lproj/MainWindow.xib; sourceTree = "<absolute>"; };
+		8207CF7B138D5AFF004B2722 /* pt */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = pt; path = /Users/ppaulojr/Desktop/zung/zung/pt.lproj/zungViewController.xib; sourceTree = "<absolute>"; };
+		8207CF7D138D5C66004B2722 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/warning.xib; sourceTree = "<group>"; };
+		8207CF81138D5C9F004B2722 /* pt */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = pt; path = pt.lproj/warning.xib; sourceTree = "<group>"; };
+		8207CF82138D5E95004B2722 /* zungquest-ptBR.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "zungquest-ptBR.plist"; sourceTree = "<group>"; };
+		8207CF84138D5F44004B2722 /* ResultadoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResultadoViewController.h; sourceTree = "<group>"; };
+		8207CF85138D5F44004B2722 /* ResultadoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResultadoViewController.m; sourceTree = "<group>"; };
+		8207CF8A138D6446004B2722 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ResultadoViewController.xib; sourceTree = "<group>"; };
+		8207CF8D138D8866004B2722 /* pt */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = pt; path = pt.lproj/ResultadoViewController.xib; sourceTree = "<group>"; };
+		8207CF8F138D8D7D004B2722 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		8207CF91138D8D84004B2722 /* pt */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pt; path = pt.lproj/Localizable.strings; sourceTree = "<group>"; };
+		8207CF92138D9705004B2722 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		8207CF93138D9705004B2722 /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@2x.png"; sourceTree = "<group>"; };
+		8207CF96138D9721004B2722 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		8207CF98138D9729004B2722 /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@2x.png"; sourceTree = "<group>"; };
+		8207CF9B138D99AA004B2722 /* GADBannerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADBannerView.h; sourceTree = "<group>"; };
+		8207CF9C138D99AA004B2722 /* GADBannerViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADBannerViewDelegate.h; sourceTree = "<group>"; };
+		8207CF9D138D99AA004B2722 /* GADInterstitial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADInterstitial.h; sourceTree = "<group>"; };
+		8207CF9E138D99AA004B2722 /* GADInterstitialDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADInterstitialDelegate.h; sourceTree = "<group>"; };
+		8207CF9F138D99AA004B2722 /* GADRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADRequest.h; sourceTree = "<group>"; };
+		8207CFA0138D99AA004B2722 /* GADRequestError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADRequestError.h; sourceTree = "<group>"; };
+		8207CFA1138D99AA004B2722 /* libGoogleAdMobAds.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libGoogleAdMobAds.a; sourceTree = "<group>"; };
+		8207CFA2138D99AA004B2722 /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
+		8207CFA5138D9B66004B2722 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		8207CFA6138D9B67004B2722 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		8207CFA7138D9B67004B2722 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8207CF4B138D465D004B2722 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8207CFA8138D9B67004B2722 /* AudioToolbox.framework in Frameworks */,
+				8207CFA9138D9B67004B2722 /* MessageUI.framework in Frameworks */,
+				8207CFAA138D9B67004B2722 /* SystemConfiguration.framework in Frameworks */,
+				8207CF53138D465E004B2722 /* UIKit.framework in Frameworks */,
+				8207CF55138D465E004B2722 /* Foundation.framework in Frameworks */,
+				8207CF57138D465E004B2722 /* CoreGraphics.framework in Frameworks */,
+				8207CFA3138D99AA004B2722 /* libGoogleAdMobAds.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8207CF43138D465D004B2722 = {
+			isa = PBXGroup;
+			children = (
+				8207CF98138D9729004B2722 /* icon@2x.png */,
+				8207CF96138D9721004B2722 /* icon.png */,
+				8207CF58138D465E004B2722 /* zung */,
+				8207CF51138D465E004B2722 /* Frameworks */,
+				8207CF4F138D465D004B2722 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8207CF4F138D465D004B2722 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8207CF4E138D465D004B2722 /* zung.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8207CF51138D465E004B2722 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8207CFA5138D9B66004B2722 /* AudioToolbox.framework */,
+				8207CFA6138D9B67004B2722 /* MessageUI.framework */,
+				8207CFA7138D9B67004B2722 /* SystemConfiguration.framework */,
+				8207CF52138D465E004B2722 /* UIKit.framework */,
+				8207CF54138D465E004B2722 /* Foundation.framework */,
+				8207CF56138D465E004B2722 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8207CF58138D465E004B2722 /* zung */ = {
+			isa = PBXGroup;
+			children = (
+				8207CF9A138D99A9004B2722 /* GoogleAdMobAdsSDK */,
+				8207CF84138D5F44004B2722 /* ResultadoViewController.h */,
+				8207CF74138D53AF004B2722 /* warning.h */,
+				8207CF61138D465E004B2722 /* zungAppDelegate.h */,
+				8207CF67138D465E004B2722 /* zungViewController.h */,
+				8207CF85138D5F44004B2722 /* ResultadoViewController.m */,
+				8207CF75138D53B0004B2722 /* warning.m */,
+				8207CF62138D465E004B2722 /* zungAppDelegate.m */,
+				8207CF68138D465E004B2722 /* zungViewController.m */,
+				8207CF64138D465E004B2722 /* MainWindow.xib */,
+				8207CF8B138D6446004B2722 /* ResultadoViewController.xib */,
+				8207CF7E138D5C66004B2722 /* warning.xib */,
+				8207CF6A138D465E004B2722 /* zungViewController.xib */,
+				8207CF59138D465E004B2722 /* Supporting Files */,
+			);
+			path = zung;
+			sourceTree = "<group>";
+		};
+		8207CF59138D465E004B2722 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8207CF92138D9705004B2722 /* icon.png */,
+				8207CF93138D9705004B2722 /* icon@2x.png */,
+				8207CF8E138D8D7D004B2722 /* Localizable.strings */,
+				8207CF5B138D465E004B2722 /* InfoPlist.strings */,
+				8207CF5F138D465E004B2722 /* main.m */,
+				8207CF5E138D465E004B2722 /* zung-Prefix.pch */,
+				8207CF5A138D465E004B2722 /* zung-Info.plist */,
+				8207CF72138D469B004B2722 /* zungquest.plist */,
+				8207CF82138D5E95004B2722 /* zungquest-ptBR.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8207CF9A138D99A9004B2722 /* GoogleAdMobAdsSDK */ = {
+			isa = PBXGroup;
+			children = (
+				8207CF9B138D99AA004B2722 /* GADBannerView.h */,
+				8207CF9C138D99AA004B2722 /* GADBannerViewDelegate.h */,
+				8207CF9D138D99AA004B2722 /* GADInterstitial.h */,
+				8207CF9E138D99AA004B2722 /* GADInterstitialDelegate.h */,
+				8207CF9F138D99AA004B2722 /* GADRequest.h */,
+				8207CFA0138D99AA004B2722 /* GADRequestError.h */,
+				8207CFA1138D99AA004B2722 /* libGoogleAdMobAds.a */,
+				8207CFA2138D99AA004B2722 /* README.txt */,
+			);
+			path = GoogleAdMobAdsSDK;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8207CF4D138D465D004B2722 /* zung */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8207CF6F138D465E004B2722 /* Build configuration list for PBXNativeTarget "zung" */;
+			buildPhases = (
+				8207CF4A138D465D004B2722 /* Sources */,
+				8207CF4B138D465D004B2722 /* Frameworks */,
+				8207CF4C138D465D004B2722 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = zung;
+			productName = zung;
+			productReference = 8207CF4E138D465D004B2722 /* zung.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8207CF45138D465D004B2722 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 8207CF48138D465D004B2722 /* Build configuration list for PBXProject "zung" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				pt,
+			);
+			mainGroup = 8207CF43138D465D004B2722;
+			productRefGroup = 8207CF4F138D465D004B2722 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8207CF4D138D465D004B2722 /* zung */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8207CF4C138D465D004B2722 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8207CF5D138D465E004B2722 /* InfoPlist.strings in Resources */,
+				8207CF66138D465E004B2722 /* MainWindow.xib in Resources */,
+				8207CF6C138D465E004B2722 /* zungViewController.xib in Resources */,
+				8207CF73138D469B004B2722 /* zungquest.plist in Resources */,
+				8207CF7C138D5C66004B2722 /* warning.xib in Resources */,
+				8207CF83138D5E95004B2722 /* zungquest-ptBR.plist in Resources */,
+				8207CF89138D6446004B2722 /* ResultadoViewController.xib in Resources */,
+				8207CF90138D8D7D004B2722 /* Localizable.strings in Resources */,
+				8207CF94138D9705004B2722 /* icon.png in Resources */,
+				8207CF95138D9705004B2722 /* icon@2x.png in Resources */,
+				8207CF97138D9721004B2722 /* icon.png in Resources */,
+				8207CF99138D9729004B2722 /* icon@2x.png in Resources */,
+				8207CFA4138D99AA004B2722 /* README.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8207CF4A138D465D004B2722 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8207CF60138D465E004B2722 /* main.m in Sources */,
+				8207CF63138D465E004B2722 /* zungAppDelegate.m in Sources */,
+				8207CF69138D465E004B2722 /* zungViewController.m in Sources */,
+				8207CF77138D53B0004B2722 /* warning.m in Sources */,
+				8207CF87138D5F45004B2722 /* ResultadoViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8207CF5B138D465E004B2722 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8207CF5C138D465E004B2722 /* en */,
+				8207CF79138D5AFF004B2722 /* pt */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8207CF64138D465E004B2722 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8207CF65138D465E004B2722 /* en */,
+				8207CF7A138D5AFF004B2722 /* pt */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		8207CF6A138D465E004B2722 /* zungViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8207CF6B138D465E004B2722 /* en */,
+				8207CF7B138D5AFF004B2722 /* pt */,
+			);
+			name = zungViewController.xib;
+			sourceTree = "<group>";
+		};
+		8207CF7E138D5C66004B2722 /* warning.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8207CF7D138D5C66004B2722 /* en */,
+				8207CF81138D5C9F004B2722 /* pt */,
+			);
+			name = warning.xib;
+			sourceTree = "<group>";
+		};
+		8207CF8B138D6446004B2722 /* ResultadoViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8207CF8A138D6446004B2722 /* en */,
+				8207CF8D138D8866004B2722 /* pt */,
+			);
+			name = ResultadoViewController.xib;
+			sourceTree = "<group>";
+		};
+		8207CF8E138D8D7D004B2722 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8207CF8F138D8D7D004B2722 /* en */,
+				8207CF91138D8D84004B2722 /* pt */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8207CF6D138D465E004B2722 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8207CF6E138D465E004B2722 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		8207CF70138D465E004B2722 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "zung/zung-Prefix.pch";
+				INFOPLIST_FILE = "zung/zung-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 3.1.3;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/zung/GoogleAdMobAdsSDK\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8207CF71138D465E004B2722 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "zung/zung-Prefix.pch";
+				INFOPLIST_FILE = "zung/zung-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 3.1.3;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/zung/GoogleAdMobAdsSDK\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		8207CFB3138DA44E004B2722 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Netfilter LTDA";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "06B1EB2B-7284-479B-9120-51D70DDC1BD7";
+				SDKROOT = iphoneos;
+			};
+			name = Distribution;
+		};
+		8207CFB4138DA44E004B2722 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "zung/zung-Prefix.pch";
+				INFOPLIST_FILE = "zung/zung-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 3.1.3;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/zung/GoogleAdMobAdsSDK\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Distribution;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8207CF48138D465D004B2722 /* Build configuration list for PBXProject "zung" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8207CF6D138D465E004B2722 /* Debug */,
+				8207CF6E138D465E004B2722 /* Release */,
+				8207CFB3138DA44E004B2722 /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8207CF6F138D465E004B2722 /* Build configuration list for PBXNativeTarget "zung" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8207CF70138D465E004B2722 /* Debug */,
+				8207CF71138D465E004B2722 /* Release */,
+				8207CFB4138DA44E004B2722 /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8207CF45138D465D004B2722 /* Project object */;
+}
