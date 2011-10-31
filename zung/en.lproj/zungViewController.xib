@@ -59,7 +59,6 @@
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
 						<int key="IBUIContentHorizontalAlignment">0</int>
 						<int key="IBUIContentVerticalAlignment">0</int>
-						<bool key="IBUIReversesTitleShadowWhenHighlighted">YES</bool>
 						<string key="IBUITitleShadowOffset">{2, 1}</string>
 						<string key="IBUINormalTitle">a little of the time</string>
 						<object class="NSColor" key="IBUIHighlightedTitleColor" id="153947388">
@@ -101,7 +100,6 @@
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
 						<int key="IBUIContentHorizontalAlignment">0</int>
 						<int key="IBUIContentVerticalAlignment">0</int>
-						<bool key="IBUIReversesTitleShadowWhenHighlighted">YES</bool>
 						<string key="IBUITitleShadowOffset">{2, 1}</string>
 						<string key="IBUINormalTitle">some of the time</string>
 						<reference key="IBUIHighlightedTitleColor" ref="153947388"/>
@@ -124,7 +122,6 @@
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
 						<int key="IBUIContentHorizontalAlignment">0</int>
 						<int key="IBUIContentVerticalAlignment">0</int>
-						<bool key="IBUIReversesTitleShadowWhenHighlighted">YES</bool>
 						<string key="IBUITitleShadowOffset">{2, 1}</string>
 						<string key="IBUINormalTitle">good part of the time</string>
 						<reference key="IBUIHighlightedTitleColor" ref="153947388"/>
@@ -147,7 +144,6 @@
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
 						<int key="IBUIContentHorizontalAlignment">0</int>
 						<int key="IBUIContentVerticalAlignment">0</int>
-						<bool key="IBUIReversesTitleShadowWhenHighlighted">YES</bool>
 						<string key="IBUITitleShadowOffset">{2, 1}</string>
 						<string key="IBUINormalTitle">most of the time</string>
 						<reference key="IBUIHighlightedTitleColor" ref="153947388"/>
@@ -191,6 +187,7 @@
 						<string key="NSFrame">{{20, 431}, {280, 9}}</string>
 						<reference key="NSSuperview" ref="774585933"/>
 						<reference key="NSWindow"/>
+						<reference key="NSNextKeyView"/>
 						<bool key="IBUIOpaque">NO</bool>
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
 						<object class="NSColor" key="IBUIProgressTintColor">

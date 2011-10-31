@@ -59,7 +59,6 @@
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
 						<int key="IBUIContentHorizontalAlignment">0</int>
 						<int key="IBUIContentVerticalAlignment">0</int>
-						<bool key="IBUIReversesTitleShadowWhenHighlighted">YES</bool>
 						<string key="IBUITitleShadowOffset">{2, 1}</string>
 						<string key="IBUINormalTitle">poucas vezes</string>
 						<object class="NSColor" key="IBUIHighlightedTitleColor" id="153947388">
@@ -101,7 +100,6 @@
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
 						<int key="IBUIContentHorizontalAlignment">0</int>
 						<int key="IBUIContentVerticalAlignment">0</int>
-						<bool key="IBUIReversesTitleShadowWhenHighlighted">YES</bool>
 						<string key="IBUITitleShadowOffset">{2, 1}</string>
 						<string key="IBUINormalTitle">algumas vezes</string>
 						<reference key="IBUIHighlightedTitleColor" ref="153947388"/>
@@ -124,7 +122,6 @@
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
 						<int key="IBUIContentHorizontalAlignment">0</int>
 						<int key="IBUIContentVerticalAlignment">0</int>
-						<bool key="IBUIReversesTitleShadowWhenHighlighted">YES</bool>
 						<string key="IBUITitleShadowOffset">{2, 1}</string>
 						<string key="IBUINormalTitle">boa parte das vezes</string>
 						<reference key="IBUIHighlightedTitleColor" ref="153947388"/>
@@ -147,7 +144,6 @@
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
 						<int key="IBUIContentHorizontalAlignment">0</int>
 						<int key="IBUIContentVerticalAlignment">0</int>
-						<bool key="IBUIReversesTitleShadowWhenHighlighted">YES</bool>
 						<string key="IBUITitleShadowOffset">{2, 1}</string>
 						<string key="IBUINormalTitle">a maior parte das vezes</string>
 						<reference key="IBUIHighlightedTitleColor" ref="153947388"/>
