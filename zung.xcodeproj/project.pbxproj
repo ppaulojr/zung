@@ -44,8 +44,7 @@
 		82615B19145F114700945708 /* zungquest.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8207CF72138D469B004B2722 /* zungquest.plist */; };
 		82615B1A145F114700945708 /* zungquest-ptBR.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8207CF82138D5E95004B2722 /* zungquest-ptBR.plist */; };
 		82615B1D145F115200945708 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 82615B1B145F115200945708 /* InfoPlist.strings */; };
-		82615B20145F118200945708 /* zungViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 82615B22145F118200945708 /* zungViewController.xib */; };
-		82615B2F145F137900945708 /* zungViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 82615B31145F137900945708 /* zungViewController.xib */; };
+		82615B34145F143200945708 /* zungViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 82615B36145F143200945708 /* zungViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -95,8 +94,8 @@
 		82615B0F145EDC0B00945708 /* background@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "background@2x.jpg"; sourceTree = "<group>"; };
 		82615B12145F114700945708 /* pt */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = pt; path = pt.lproj/MainWindow.xib; sourceTree = "<group>"; };
 		82615B1C145F115200945708 /* pt */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pt; path = pt.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		82615B21145F118200945708 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/zungViewController.xib; sourceTree = "<group>"; };
-		82615B30145F137900945708 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/zungViewController.xib; sourceTree = "<group>"; };
+		82615B35145F143200945708 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/zungViewController.xib; sourceTree = "<group>"; };
+		82615B37145F143A00945708 /* pt */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = pt; path = pt.lproj/zungViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -152,7 +151,6 @@
 		8207CF58138D465E004B2722 /* zung */ = {
 			isa = PBXGroup;
 			children = (
-				82615B31145F137900945708 /* zungViewController.xib */,
 				82615B0E145EDC0B00945708 /* background.jpg */,
 				82615B0F145EDC0B00945708 /* background@2x.jpg */,
 				82615B0C145ED5D200945708 /* btnGreen@2x.png */,
@@ -169,7 +167,7 @@
 				8207CF64138D465E004B2722 /* MainWindow.xib */,
 				8207CF8B138D6446004B2722 /* ResultadoViewController.xib */,
 				8207CF7E138D5C66004B2722 /* warning.xib */,
-				82615B22145F118200945708 /* zungViewController.xib */,
+				82615B36145F143200945708 /* zungViewController.xib */,
 				82615B1B145F115200945708 /* InfoPlist.strings */,
 				8207CF59138D465E004B2722 /* Supporting Files */,
 			);
@@ -257,7 +255,6 @@
 			files = (
 				8207CF5D138D465E004B2722 /* InfoPlist.strings in Resources */,
 				8207CF66138D465E004B2722 /* MainWindow.xib in Resources */,
-				82615B20145F118200945708 /* zungViewController.xib in Resources */,
 				8207CF73138D469B004B2722 /* zungquest.plist in Resources */,
 				8207CF7C138D5C66004B2722 /* warning.xib in Resources */,
 				8207CF83138D5E95004B2722 /* zungquest-ptBR.plist in Resources */,
@@ -280,7 +277,7 @@
 				82615B19145F114700945708 /* zungquest.plist in Resources */,
 				82615B1A145F114700945708 /* zungquest-ptBR.plist in Resources */,
 				82615B1D145F115200945708 /* InfoPlist.strings in Resources */,
-				82615B2F145F137900945708 /* zungViewController.xib in Resources */,
+				82615B34145F143200945708 /* zungViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -355,18 +352,11 @@
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		82615B22145F118200945708 /* zungViewController.xib */ = {
+		82615B36145F143200945708 /* zungViewController.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				82615B21145F118200945708 /* en */,
-			);
-			name = zungViewController.xib;
-			sourceTree = "<group>";
-		};
-		82615B31145F137900945708 /* zungViewController.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				82615B30145F137900945708 /* en */,
+				82615B35145F143200945708 /* en */,
+				82615B37145F143A00945708 /* pt */,
 			);
 			name = zungViewController.xib;
 			sourceTree = "<group>";
