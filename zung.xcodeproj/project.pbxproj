@@ -22,10 +22,6 @@
 		8207CF87138D5F45004B2722 /* ResultadoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8207CF85138D5F44004B2722 /* ResultadoViewController.m */; };
 		8207CF89138D6446004B2722 /* ResultadoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8207CF8B138D6446004B2722 /* ResultadoViewController.xib */; };
 		8207CF90138D8D7D004B2722 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8207CF8E138D8D7D004B2722 /* Localizable.strings */; };
-		8207CF94138D9705004B2722 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 8207CF92138D9705004B2722 /* icon.png */; };
-		8207CF95138D9705004B2722 /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8207CF93138D9705004B2722 /* icon@2x.png */; };
-		8207CF97138D9721004B2722 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 8207CF96138D9721004B2722 /* icon.png */; };
-		8207CF99138D9729004B2722 /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8207CF98138D9729004B2722 /* icon@2x.png */; };
 		8207CFA3138D99AA004B2722 /* libGoogleAdMobAds.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8207CFA1138D99AA004B2722 /* libGoogleAdMobAds.a */; };
 		8207CFA4138D99AA004B2722 /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = 8207CFA2138D99AA004B2722 /* README.txt */; };
 		8207CFA8138D9B67004B2722 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8207CFA5138D9B66004B2722 /* AudioToolbox.framework */; };
@@ -35,8 +31,6 @@
 		82615B0D145ED5D200945708 /* btnGreen@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 82615B0C145ED5D200945708 /* btnGreen@2x.png */; };
 		82615B10145EDC0B00945708 /* background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 82615B0E145EDC0B00945708 /* background.jpg */; };
 		82615B11145EDC0B00945708 /* background@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 82615B0F145EDC0B00945708 /* background@2x.jpg */; };
-		82615B13145F114700945708 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 8207CF92138D9705004B2722 /* icon.png */; };
-		82615B14145F114700945708 /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8207CF93138D9705004B2722 /* icon@2x.png */; };
 		82615B15145F114700945708 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8207CF8E138D8D7D004B2722 /* Localizable.strings */; };
 		82615B16145F114700945708 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8207CF5B138D465E004B2722 /* InfoPlist.strings */; };
 		82615B17145F114700945708 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8207CF5F138D465E004B2722 /* main.m */; };
@@ -45,6 +39,7 @@
 		82615B1A145F114700945708 /* zungquest-ptBR.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8207CF82138D5E95004B2722 /* zungquest-ptBR.plist */; };
 		82615B1D145F115200945708 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 82615B1B145F115200945708 /* InfoPlist.strings */; };
 		82615B34145F143200945708 /* zungViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 82615B36145F143200945708 /* zungViewController.xib */; };
+		9F910F9917F7726E0047DCD8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F910F9817F7726E0047DCD8 /* Images.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -75,8 +70,6 @@
 		8207CF91138D8D84004B2722 /* pt */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pt; path = pt.lproj/Localizable.strings; sourceTree = "<group>"; };
 		8207CF92138D9705004B2722 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
 		8207CF93138D9705004B2722 /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@2x.png"; sourceTree = "<group>"; };
-		8207CF96138D9721004B2722 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
-		8207CF98138D9729004B2722 /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@2x.png"; sourceTree = "<group>"; };
 		8207CF9B138D99AA004B2722 /* GADBannerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADBannerView.h; sourceTree = "<group>"; };
 		8207CF9C138D99AA004B2722 /* GADBannerViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADBannerViewDelegate.h; sourceTree = "<group>"; };
 		8207CF9D138D99AA004B2722 /* GADInterstitial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADInterstitial.h; sourceTree = "<group>"; };
@@ -96,6 +89,8 @@
 		82615B1C145F115200945708 /* pt */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pt; path = pt.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		82615B35145F143200945708 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/zungViewController.xib; sourceTree = "<group>"; };
 		82615B37145F143A00945708 /* pt */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = pt; path = pt.lproj/zungViewController.xib; sourceTree = "<group>"; };
+		9F910F9817F7726E0047DCD8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		9F910F9A17F772B20047DCD8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,8 +114,6 @@
 		8207CF43138D465D004B2722 = {
 			isa = PBXGroup;
 			children = (
-				8207CF98138D9729004B2722 /* icon@2x.png */,
-				8207CF96138D9721004B2722 /* icon.png */,
 				8207CF58138D465E004B2722 /* zung */,
 				8207CF51138D465E004B2722 /* Frameworks */,
 				8207CF4F138D465D004B2722 /* Products */,
@@ -169,6 +162,7 @@
 				8207CF7E138D5C66004B2722 /* warning.xib */,
 				82615B36145F143200945708 /* zungViewController.xib */,
 				82615B1B145F115200945708 /* InfoPlist.strings */,
+				9F910F9817F7726E0047DCD8 /* Images.xcassets */,
 				8207CF59138D465E004B2722 /* Supporting Files */,
 			);
 			path = zung;
@@ -230,6 +224,13 @@
 /* Begin PBXProject section */
 		8207CF45138D465D004B2722 /* Project object */ = {
 			isa = PBXProject;
+			attributes = {
+				TargetAttributes = {
+					8207CF4D138D465D004B2722 = {
+						DevelopmentTeam = PWFMZR3KY6;
+					};
+				};
+			};
 			buildConfigurationList = 8207CF48138D465D004B2722 /* Build configuration list for PBXProject "zung" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
@@ -256,21 +257,16 @@
 				8207CF5D138D465E004B2722 /* InfoPlist.strings in Resources */,
 				8207CF66138D465E004B2722 /* MainWindow.xib in Resources */,
 				8207CF73138D469B004B2722 /* zungquest.plist in Resources */,
+				9F910F9917F7726E0047DCD8 /* Images.xcassets in Resources */,
 				8207CF7C138D5C66004B2722 /* warning.xib in Resources */,
 				8207CF83138D5E95004B2722 /* zungquest-ptBR.plist in Resources */,
 				8207CF89138D6446004B2722 /* ResultadoViewController.xib in Resources */,
 				8207CF90138D8D7D004B2722 /* Localizable.strings in Resources */,
-				8207CF94138D9705004B2722 /* icon.png in Resources */,
-				8207CF95138D9705004B2722 /* icon@2x.png in Resources */,
-				8207CF97138D9721004B2722 /* icon.png in Resources */,
-				8207CF99138D9729004B2722 /* icon@2x.png in Resources */,
 				8207CFA4138D99AA004B2722 /* README.txt in Resources */,
 				82615B0A145ED5C900945708 /* btnGreen.png in Resources */,
 				82615B0D145ED5D200945708 /* btnGreen@2x.png in Resources */,
 				82615B10145EDC0B00945708 /* background.jpg in Resources */,
 				82615B11145EDC0B00945708 /* background@2x.jpg in Resources */,
-				82615B13145F114700945708 /* icon.png in Resources */,
-				82615B14145F114700945708 /* icon@2x.png in Resources */,
 				82615B15145F114700945708 /* Localizable.strings in Resources */,
 				82615B16145F114700945708 /* InfoPlist.strings in Resources */,
 				82615B18145F114700945708 /* zung-Info.plist in Resources */,
@@ -348,6 +344,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				82615B1C145F115200945708 /* pt */,
+				9F910F9A17F772B20047DCD8 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -400,12 +397,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "zung/zung-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = "zung/zung-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 3.1.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/zung/GoogleAdMobAdsSDK\"",
@@ -419,11 +421,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "zung/zung-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = "zung/zung-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 3.1.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/zung/GoogleAdMobAdsSDK\"",
@@ -454,11 +461,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "zung/zung-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = "zung/zung-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 3.1.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/zung/GoogleAdMobAdsSDK\"",

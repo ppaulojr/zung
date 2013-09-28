@@ -12,10 +12,6 @@
 @implementation warning
 @synthesize delegate;
 
-- (void)dealloc
-{
-    [super dealloc];
-}
 
 - (void)didReceiveMemoryWarning
 {

@@ -16,13 +16,6 @@ static bool warn = NO;
 
 bool arr[] = {YES,NO,YES,YES,NO,NO,YES,YES,YES,YES,NO,NO,YES,NO,YES,NO,NO,NO,YES,NO};
 
-- (void)dealloc
-{
-    [question release];
-    [progressbar release];
-    [questionNumber release];
-    [super dealloc];
-}
 
 - (void)didReceiveMemoryWarning
 {
@@ -39,7 +32,7 @@ bool arr[] = {YES,NO,YES,YES,NO,NO,YES,YES,YES,YES,NO,NO,YES,NO,YES,NO,NO,NO,YES
     lista = [[NSArray alloc] initWithContentsOfFile:dataFilename];
     questIdx = 0;
     score = 0;
-    self.question.text = [@"" stringByAppendingFormat:@"%@",[lista objectAtIndex:questIdx]];
+    self.question.text = [@"" stringByAppendingFormat:@"%@",lista[questIdx]];
     self.questionNumber.text = @"1";
 
 }
@@ -85,7 +78,7 @@ bool arr[] = {YES,NO,YES,YES,NO,NO,YES,YES,YES,YES,NO,NO,YES,NO,YES,NO,NO,NO,YES
         [self presentModalViewController:vc animated:YES];
         return;
     }
-    self.question.text = [@"" stringByAppendingFormat:@"%@",[lista objectAtIndex:questIdx]];
+    self.question.text = [@"" stringByAppendingFormat:@"%@",lista[questIdx]];
     self.questionNumber.text = [NSString stringWithFormat:@"%d",questIdx+1];
 }
 
@@ -95,7 +88,7 @@ bool arr[] = {YES,NO,YES,YES,NO,NO,YES,YES,YES,YES,NO,NO,YES,NO,YES,NO,NO,NO,YES
 
 - (void) enddisplay:(UIViewController *)control {
     [self dismissModalViewControllerAnimated:YES];
-    self.question.text = [lista objectAtIndex:0];
+    self.question.text = lista[0];
     self.questionNumber.text = @"1";
     questIdx = 0;
     score = 0;

@@ -14,12 +14,6 @@
 @synthesize points;
 @synthesize delegate,pontuacao;
 
-- (void)dealloc
-{
-    [interpretation release];
-    [points release];
-    [super dealloc];
-}
 
 - (void)didReceiveMemoryWarning
 {
@@ -60,7 +54,6 @@
 }
 
 - (void) interstitial:(GADInterstitial *)ad didFailToReceiveAdWithError:(GADRequestError *)error {
-    [ad release];
     // Create a view of the standard size at the bottom of the screen.
     bannerView_ = [[GADBannerView alloc]
                    initWithFrame:CGRectMake(0.0,
@@ -84,7 +77,6 @@
 {
     [self setInterpretation:nil];
     [self setPoints:nil];
-    [interstitial_ release];
     [super viewDidUnload];
 }
 

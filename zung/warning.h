@@ -11,11 +11,11 @@
 @protocol WarningDelegate;
 
 @interface warning : UIViewController {
-    id<WarningDelegate> delegate;
+    id<WarningDelegate> __weak delegate;
     UIButton *close;
 }
 - (IBAction)closeit:(id)sender;
-@property (nonatomic,assign) id<WarningDelegate> delegate;
+@property (nonatomic,weak) id<WarningDelegate> delegate;
 @end
 
 @protocol WarningDelegate <NSObject>

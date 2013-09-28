@@ -13,7 +13,7 @@
 @protocol ResultadoViewControllerDelegate;
 
 @interface ResultadoViewController : UIViewController <GADInterstitialDelegate> {
-    id <ResultadoViewControllerDelegate> delegate;
+    id <ResultadoViewControllerDelegate> __weak delegate;
     NSInteger pontuacao;
     UILabel *interpretation;
     UILabel *points;
@@ -21,10 +21,10 @@
     GADInterstitial *interstitial_;
 }
 
-@property (nonatomic, assign) id<ResultadoViewControllerDelegate> delegate;
+@property (nonatomic, weak) id<ResultadoViewControllerDelegate> delegate;
 @property (nonatomic, assign) NSInteger pontuacao;
-@property (nonatomic, retain) IBOutlet UILabel *interpretation;
-@property (nonatomic, retain) IBOutlet UILabel *points;
+@property (nonatomic, strong) IBOutlet UILabel *interpretation;
+@property (nonatomic, strong) IBOutlet UILabel *points;
 - (IBAction)closeForm:(id)sender;
 
 @end

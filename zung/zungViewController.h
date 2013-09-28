@@ -20,8 +20,8 @@
 }
 
 - (IBAction)answer:(id)sender;
-@property (nonatomic, retain) IBOutlet UILabel *question;
-@property (nonatomic, retain) IBOutlet UIProgressView *progressbar;
-@property (nonatomic, retain) IBOutlet UILabel *questionNumber;
+@property (nonatomic, strong) IBOutlet UILabel *question;
+@property (nonatomic, strong) IBOutlet UIProgressView *progressbar;
+@property (nonatomic, strong) IBOutlet UILabel *questionNumber;
 
 @end
