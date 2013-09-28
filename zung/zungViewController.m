@@ -41,9 +41,10 @@ bool arr[] = {YES,NO,YES,YES,NO,NO,YES,YES,YES,YES,NO,NO,YES,NO,YES,NO,NO,NO,YES
     if (warn) {
         return;
     }
+    self.title = NSLocalizedString(@"Zung Self-Rating Depression", @"");
     warning * vc = [[warning alloc] initWithNibName:@"warning" bundle:nil];
     vc.delegate = self;
-    [self presentModalViewController:vc animated:YES];
+    [self presentViewController:vc animated:YES completion:Nil];
     warn = YES;
 }
 
@@ -75,7 +76,7 @@ bool arr[] = {YES,NO,YES,YES,NO,NO,YES,YES,YES,YES,NO,NO,YES,NO,YES,NO,NO,NO,YES
         ResultadoViewController * vc = [[ResultadoViewController alloc] initWithNibName:@"ResultadoViewController" bundle:nil];
         vc.delegate = self;
         vc.pontuacao = score;
-        [self presentModalViewController:vc animated:YES];
+        [self presentViewController:vc animated:YES completion:Nil];
         return;
     }
     self.question.text = [@"" stringByAppendingFormat:@"%@",lista[questIdx]];
@@ -83,11 +84,11 @@ bool arr[] = {YES,NO,YES,YES,NO,NO,YES,YES,YES,YES,NO,NO,YES,NO,YES,NO,NO,NO,YES
 }
 
 - (void) warningExit:(UIViewController *)dialog {
-    [self dismissModalViewControllerAnimated:YES];
+    [self dismissViewControllerAnimated:YES completion:Nil];
 }
 
 - (void) enddisplay:(UIViewController *)control {
-    [self dismissModalViewControllerAnimated:YES];
+    [self dismissViewControllerAnimated:YES completion:Nil];
     self.question.text = lista[0];
     self.questionNumber.text = @"1";
     questIdx = 0;
