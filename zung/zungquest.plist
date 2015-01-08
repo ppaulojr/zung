@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
-<array>
+   <array>
 	<string>I feel down hearted and blue.</string>
 	<string>Morning is when I feel the best.</string>
 	<string>I have crying spells or feel like it.</string>
@@ -22,5 +22,5 @@
 	<string>My life is pretty full.</string>
 	<string>I feel that others would be better off if I were dead.</string>
 	<string>I still enjoy the things I used to do.</string>
-</array>
+   </array>
 </plist>
